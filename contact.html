@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f8f9fa;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-top: 40px;
+        }
+        form {
+            background: #fff;
+            max-width: 400px;
+            margin: 40px auto;
+            padding: 30px 25px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+        label {
+            display: block;
+            margin-bottom: 6px;
+            color: #555;
+            font-weight: bold;
+        }
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 8px 10px;
+            margin-bottom: 18px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 1em;
+            box-sizing: border-box;
+        }
+        textarea {
+            min-height: 80px;
+            resize: vertical;
+        }
+        button[type="submit"] {
+            background: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 22px;
+            border-radius: 4px;
+            font-size: 1em;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        button[type="submit"]:hover {
+            background: #0056b3;
+        }
+    </style>
+    </style>
+<head>
+    <title>Contact Me</title>
+</head>
+<body>
+    <h1>Contact Me</h1>
+    <form method="POST">
+        <label>Name:</label><br>
+        <input type="text" name="name"><br>
+        <label>Email:</label><br>
+        <input type="email" name="email"><br>
+        <label>Message:</label><br>
+        <textarea name="message"></textarea><br>
+        <button type="submit">Send</button>
+    </form>
+</body>
+</html>
